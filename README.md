@@ -1,4 +1,4 @@
-#Application Requirement
+# Application Requirement
 We need you to implement an application which –
 1. Receives the incoming requests
 2. Parses the requests
@@ -23,7 +23,7 @@ Below are the implementation steps of above requirement
 
 **Compare Response:** A script can be written to compare the received responses with the responses stored in a golden copy source. Any difference can be highlighted in a file, email, or over the console using the scripting language.
 
-####Techs and Strategies used
+# Techs and Strategies used
 **Language:** We decided to use Java to solve the same. Reasons being 
 - Java is faster to execute.  
 - Have more robust JDBC connection to database which can be added in future
@@ -36,7 +36,7 @@ We have used Java 8  to compile this but and Java higher version can be used.
 
 **Networking mechanism:** We have shared data over file for ease in prototype stage. Same can be enhanced to exchange data over Webservice using Springboot, through a common database to even store history or via TCP connections.
 
-#Framework explanation
+# Framework explanation
 
 - **Main Class:** The ***ExchangeControlApp class is the main class of the application, which receives incoming requests, parses them, evaluates the rules, sends the responses back to the clients, and compares the responses with a golden copy.***
 - **Source File:** "response.txt" is the source file for the application
@@ -45,8 +45,10 @@ We have used Java 8  to compile this but and Java higher version can be used.
 - **Rule:** Rules has be configured in different Java Generics classes like Price Rule, ExactPrice Rule, Quantity Rule etc
 - **Utility:** Utility class is used to stored all functional helping methods required while execution.
 - **OrderRequest and OrderResponse:** Contains Pojo classes for Request and Response after parsing.
-#To Run
-Please run the ExchangeControlApp class using Java to start the application.
+
+# Execution Guidline
+- Import the project as Java project
+- Please run the ExchangeControlApp class using Java to start the application.
 It will
 - Start the application
 - Get Request from "request.txt" file and parses the same.
@@ -65,7 +67,10 @@ It will
 - **Duplicate Order Rule:** If Request Type is DUPLICATEORDER then response type will be REJECT
 
 
+**For ease Console Output is also published in "consoleOutput.txt" file.**
 
+Point to note :
+- For comparision, few differences are ignored like TimeStamp, Exchange_Order_Id, ExchTs as these are runtime values and will get change with each execution.
 
 
 
