@@ -1,0 +1,4 @@
+RequestType:NEWORDER|OrderID:480069891|Token:0|Symbol:IFEU_BRNFMZ0022!|Side:B|Price:157.40000000000000568|Quantity:5|QuantityFilled:0|DisclosedQnty:5|TimeStamp:1666287639395048969|Duration:DAY|OrderType:LIMIT|Account:bJEROM|Exchange:0|NumCopies:0
+RequestType:DUPLICATEORDER|OrderID:480069893|Token:0|Symbol:IFEX_BRNFMZ0022!|Side:B|Price:155|Quantity:10|QuantityFilled:4|DisclosedQnty:5|TimeStamp:1666287639395048969|Duration:DAY|OrderType:LIMIT|Account:bJEROM|Exchange:0|NumCopies:0
+RequestType:SELLORDER|OrderID:480069894|Token:0|Symbol:IFEx_BRNFMZ0023!|Side:B|Price:156|Quantity:20|QuantityFilled:4|DisclosedQnty:5|TimeStamp:1666287639395048969|Duration:DAY|OrderType:LIMIT|Account:bJEROM|Exchange:0|NumCopies:0
+RequestType:NEWORDER|OrderID:480069895|Token:0|Symbol:IFEU_BRNFMZ0022!|Side:B|Price:159|Quantity:20|QuantityFilled:4|DisclosedQnty:5|TimeStamp:1666287639395048969|Duration:DAY|OrderType:LIMIT|Account:bJEROM|Exchange:0|NumCopies:0
